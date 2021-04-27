@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    height: 100%;
+}
+
+.banner{
+    background-image: url(../images/bannerbg.jpg);
+    width: 100%;
+    height: 600px;
+    margin-bottom: 120px;
+    position: relative;
+
+}
+
+.nv2{
+    font-size: 25px;
+    color: #737373;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.nv2:hover{
+    color:#2DCC70;
+}
+
+.monitor img{
+    
+    margin-top: 200px;
+    position: absolute;
+    display: block;
+    max-width: 100%;
+}
+
+.monitor{
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;;
+}
+
+.portfolio p{
+    width: 65%;
+   
+}
+
+.know{
+    
+    height: 100%;
+    background-color: #EFEFEF;
+}
+
+.ki{
+    margin-top:100px;
+}
+
+.know img{
+    width: 150%;
+    height: 60%;
+}
+
+.ready{
+    background-color: #31302E;
+    height:100%;
+    color:white;
+    padding-bottom: 8%;
+}
+
+.rss{
+    text-align: center;
+    margin-top: 25%;
+}
+
+footer{
+    background-color: #EFEFEF;
+    height: 100%;
+    text-align: center;
+    padding-bottom: 2%;
+}
